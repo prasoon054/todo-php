@@ -17,7 +17,6 @@ This is a simple To-Do list web application built with PHP and MySQL. It allows 
 
 - PHP 7.0 or higher
 - MySQL 5.7 or higher
-- A web server (e.g., Apache, Nginx)
 - Browser with JavaScript enabled
 
 ---
