@@ -28,3 +28,21 @@ This is a simple To-Do list web application built with PHP and MySQL. It allows 
 git clone https://github.com/prasoon054/todo-app.git
 ```
 ### 2. Navigate to the Project Directory
+```bash
+cd todo-app
+```
+### 3. Set up the Database
+- Open your MySQL client
+- Create a new database by executing the SQL commands in tododb.sql
+### 4. Configure the Database in the Project
+- Open the project files (login.php, signup.php, and todo.php) and ensure the database credentials are correct:
+```php
+$servername = "localhost"; // Update if necessary
+$username = "root"; // Your MySQL username
+$password = ""; // Your MySQL password
+$dbname = "todo_app"; // The database name created earlier
+```
+### 5. Start the PHP Server
+You can start a local PHP development server by running this command:
+php -S localhost:8080
+Then, visit http://localhost:8080 in your browser
