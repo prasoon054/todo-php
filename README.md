@@ -26,5 +26,5 @@ This is a simple To-Do list web application built with PHP and MySQL. It allows 
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/prasoon054/todo-app.git
-
+```
 ### 2. Navigate to the Project Directory
